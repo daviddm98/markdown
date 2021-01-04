@@ -4,6 +4,7 @@ output: github_document
 ---
 i'm learning about r markdown
 ```{r}
+edidiv <- read.csv("edidiv.csv")
 summary(edidiv)
 ```
 esto es un summary de edidiv
